@@ -42,4 +42,10 @@ void main() {
   print(b.runtimeType);
   b = 10;
   print(b.runtimeType);
+
+  // Null Safety
+
+  int abc; // Tidak boleh null
+  abc = 10;
+  print(abc);
 }
